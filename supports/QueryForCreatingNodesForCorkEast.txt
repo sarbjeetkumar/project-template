@@ -1,0 +1,18 @@
+CREATE 	(CorkEast1 : candidate_CorkEast	{ Name : "Kevin O'Keeffe", Gender : "Male" , Age : 42 , PartyName : "FiannaFail",	TotalVotes : 11035	,County : "CorkEast"	,Win : "Yes"	})
+CREATE 	(CorkEast2 : candidate_CorkEast { Name : "David Stanton" ,Gender : "Male",Age : 49 , PartyName : "FiannaGael", 	TotalVotes : 11558	,County : "CorkEast"	,Win : "Yes"	})
+CREATE 	(CorkEast3 : candidate_CorkEast	 { Name : "Sean Sherlock", Gender : "Male",Age : 65 , PartyName : "LabourParty",	TotalVotes : 11803	,County : "CorkEast"	,Win : "Yes"	})
+CREATE 	(CorkEast4  : candidate_CorkEast	{ Name : "Pat Burke" , Gender : "Male" , Age : 55, PartyName : "SinnFein",	TotalVotes : 8636	,County : "CorkEast"	,Win : "Yes"	})
+CREATE 	(CorkEast5 : candidate_CorkEast	{ Name : "Barbara Ahem" , Gender : "Female" , Age : 74, PartyName : "FiannaFail",	TotalVotes : 6780	,County : "CorkEast"	,Win : "No"	})
+CREATE 	(CorkEast6 : candidate_CorkEast	{ Name : "Noel McCrathy", Gender : "Male" , Age : 35 , PartyName : "FiannaGael",	TotalVotes : 6203	,County : "CorkEast"	,Win : "No"	})
+CREATE 	(CorkEast7 : candidate_CorkEast	{ Name : "Tom Barry",Gender : "Male" ,Age :55, PartyName : "FiannaGael",	TotalVotes : 3573	,County : "Clare"	,Win : "No"	})
+CREATE 	(CorkEast8 : candidate_CorkEast	{ Name : "Paul Bradford" , Gender : "Male" , Age : 51, PartyName : "Reuna Ireland" ,	TotalVotes : 4596	,County : "CorkEast"	,Win : "No"	})
+CREATE 	(CorkEast9 : candidate_CorkEast	{ Name : "Mary Linehan Foley" , Gender : "Female" , Age : 37, PartyName : "Independent" ,TotalVotes : 4132	,County : "CorkEast"	,Win : "No"	})
+CREATE 	(CorkEast10 : candidate_CorkEast	{ Name : "Ciara Leonardi Roche" ,Gender : "Male" ,Age : 38, PartyName : "AAAPBP",	TotalVotes : 3237	,County : "CorkEast"	,Win : "No"	})
+CREATE 	(CorkEast11 : candidate_CorkEast	{ Name : "Kierean",Gender : "Male", Age : 45, PartyName : "Independent",	TotalVotes : 1813	,County : "CorkEast"	,Win : "No"	})
+CREATE 	(CorkEast12 : candidate_CorkEast	{ Name : "Ken Cuirt", Gender : "Male" , Age : 66 , PartyName : "Independent",	TotalVotes :  1506 ,County : "CorkEast"	,Win : "No"	})
+CREATE 	(CorkEast13 : candidate_CorkEast	{ Name : "Natasha Harty",Gender : "Female" ,Age : 44 , PartyName : "SocialDemoccrat",	TotalVotes : 806	,County : "CorkEast"	,Win : "No"	})
+CREATE 	(CorkEast14 : candidate_CorkEast 	{ Name : "Patrick Bullan" ,Gender : "Male" ,Age : 44, PartyName : "Independent" , 	TotalVotes : 241	,County : "CorkEast"	,Win : "No"	})
+CREATE 	(CorkEast15 : candidate_CorkEast	{ Name : "Ross Canoon",Gender : "Male" ,Age : 40 , PartyName : "Independent",	TotalVotes : 70	,County : "CorkEast"	,Win : "No"	})
+
+
+	 					

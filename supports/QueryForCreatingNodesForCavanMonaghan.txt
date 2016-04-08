@@ -1,0 +1,16 @@
+CREATE 	(CavanMonaghan1 : candidate_CM 	{ Name : "Heather Humphyreys", Gender : "Male" , Age : 45 , PartyName : "FiannaGael",	TotalVotes : 12391	,County : "Cavan–Monaghan"	,Win : "Yes"	})
+CREATE 	(CavanMonaghan2 : candidate_CM	  { Name : "Caoimhghin o Caolain" ,Gender : "Female",Age : 39 , PartyName : "SinnFein", 	TotalVotes : 17182	,County : "Cavan–Monaghan"	,Win : "Yes"	})
+CREATE 	(CavanMonaghan3 : candidate_CM	    { Name : "Brendan Smith", Gender : "Male",Age : 49 , PartyName : "FinnaFail",	TotalVotes : 12120	,County : "Cavan–Monaghan"	,Win : "Yes"	})
+CREATE 	(CavanMonaghan4  : candidate_CM	{ Name : "Bobby Aylward" , Gender : "Male" , Age : 61, PartyName : "FinnaFail",	TotalVotes : 11335	,County : "Carlow–Kilkenny"	,Win : "Yes"	})
+CREATE 	(CavanMonaghan5 : candidate_CM	{ Name : "Naimh Smyth" , Gender : "Female" , Age : 65, PartyName : "FiannaFail",	TotalVotes : 9644	,County : "Cavan–Monaghan"	,Win : "Yes"	})
+CREATE 	(CavanMonaghan6 : candidate_CM	{ Name : "Joe o Reilly", Gender : "Male" , Age : 65 , PartyName : "FiannaGael",	TotalVotes : 8790	,County : "Cavan–Monaghan"	,Win : "No"	})
+CREATE 	(CavanMonaghan7 : candidate_CM	{ Name : "Mike Durkman",Gender : "Male" ,Age :55 , PartyName : "FiannaFail",	TotalVotes : 6993	,County : "Cavan–Monaghan"	,Win : "No"	})
+CREATE 	(CavanMonaghan8 : candidate_CM	{ Name : "Sean Conlan" , Gender : "Male" , Age :53, PartyName : "Independent" ,	TotalVotes : 2340	,County : "Cavan–Monaghan"	,Win : "No"	})
+CREATE 	(CavanMonaghan9 : candidate_CM	{ Name : "Micheal Callaghan" , Gender : "Male" , Age : 46, PartyName : "GreenParty" ,TotalVotes : 1523	,County : "Cavan–Monaghan"	,Win : "No"	})
+CREATE 	(CavanMonaghan10 : candidate_CM	{ Name : "John Wilson" ,Gender : "Male" ,Age : 58, PartyName : "Independent",	TotalVotes : 1717	,County : "Cavan–Monaghan"	,Win : "No"	})
+CREATE 	(CavanMonaghan11 : candidate_CM	{ Name : "Mick McDermott",Gender : "Male", Age : 43 , PartyName : "DirectDEmocracy",	TotalVotes : 479	,County : "Cavan–Monaghan"	,Win : "No"	})
+CREATE 	(CavanMonaghan12 : candidate_CM	{ Name : "Aiofe O'Connel", Gender : "Female" , Age : 70 , PartyName : "DirectDEmocracy",	TotalVotes : 292	,County : "Cavan–Monaghan"	,Win : "No"	})
+CREATE 	(CavanMonaghan13 : candidate_CM	{ Name : "Emmet Smith",Gender : "Male" ,Age : 59 , PartyName : "Independent",	TotalVotes : 258	,County : "Cavan–Monaghan"	,Win : "No"	})
+CREATE 	(CavanMonaghan14 : candidate_CM 	{ Name : "Jimmy Mee" ,Gender : "Male" ,Age : 58, PartyName : "Independent" , 	TotalVotes : 90	,County : "Cavan–Monaghan"	,Win : "No"	})
+
+	 					
