@@ -40,3 +40,6 @@ RETURN
 
 ## References
 1. [Neo4J website](http://neo4j.com/), the website of the Neo4j database.
+2. http://neo4j.com/developer/cypher/
+3. https://github.com/graph-theory
+4. https://github.com/graph-theory/problems-4/blob/master/problems.pdf
