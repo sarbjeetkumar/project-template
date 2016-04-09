@@ -2,7 +2,7 @@
 ###### Student Sarab , G00
 
 ## Introduction
-Give a summary here of what your project is about.
+This project is about all consituencies and their members in the database .
 
 ## Database
 Explain how you created your database, and how information is represented in it.
