@@ -1,5 +1,5 @@
 # Irish Constituencies Neo4j Database
-###### Student name, G00123456
+###### Student Sarab , G00
 
 ## Introduction
 Give a summary here of what your project is about.
