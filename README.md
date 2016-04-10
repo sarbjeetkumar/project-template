@@ -74,8 +74,11 @@ This query Will Shows whats actually exixts in database and how is the structure
 
 ```cypher
 	MATCH(a:constituencies{Name : "Kerry"})-[:Ran_IN_Election]-> 
+	
 	(b:candidateKerry)
+	
 	WHERE b.Gender = "Female"
+	
 	RETURN b.Name , b.Age;
 ```
 
@@ -87,8 +90,11 @@ Query that displays all the female members of the county kerry who run in electi
 This query retreives  a oldest man name and age who run in election in county clare 
 ```cypher
 	MATCH(a:constituencies{Name : "Clare"})-[:Ran_IN_Election]-> 
+	
 	(b:candidate_Clare)
+	
 	WHERE b.Age >= 70
+	
 	RETURN b.Name , b.Age;
 ```
 
