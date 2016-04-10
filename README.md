@@ -28,7 +28,7 @@ PartyName : "FiannaFail",	TotalVotes : 11903	,County : "Carlow–Kilkenny"	,Win 
 
 
 ```
-
+Above querie shows how to create a node in database which represents the member of county "Carlow–Kilkenny" and it has some property's as well. It starts "CRATE" words tell neo4j in cypher to create a node and give it a label called candidate_CK and inside a node name called John McGuiness which was the member in that county as so on with all the members of all county's.
 
 ## Queries
 Summarise your three queries here.
