@@ -61,7 +61,7 @@ This query Will Shows whats actually exixts in database and how is the structure
 
 
 
-##This query will shows a user that how many nodes are in the databse It will count a total number of nodes .
+###This query will shows a user that how many nodes are in the databse It will count a total number of nodes .
 
 ```
 	start n=node(*)
@@ -70,23 +70,55 @@ This query Will Shows whats actually exixts in database and how is the structure
 	
 	return count(n)
 ```
-#### Query two title
-This query retreives the Bacon number of an actor...
+#### Get the number of female members were there in county kerry 
+
 ```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+	MATCH(a:constituencies{Name : "Kerry"})-[:Ran_IN_Election]-> 
+	(b:candidateKerry)
+	WHERE b.Gender = "Female"
+	RETURN b.Name , b.Age;
 ```
 
-#### Query three title
-This query retreives the Bacon number of an actor...
+Query that displays all the female members of the county kerry who run in election With there names and age .
+
+
+
+#### Get the Age 
+This query retreives  a oldest man name and age who run in election in county clare 
 ```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+	MATCH(a:constituencies{Name : "Clare"})-[:Ran_IN_Election]-> 
+	(b:candidate_Clare)
+	WHERE b.Age >= 70
+	RETURN b.Name , b.Age;
 ```
+
+
+#### Get the Age 
+This query retreives  a oldest man name and age who run in election in county clare 
+```cypher
+	MATCH(a:constituencies{Name : "Clare"})-[:Ran_IN_Election]-> 
+	
+	(b:candidate_Clare)
+	
+	WHERE b.Age >= 70
+	
+	RETURN b.Name , b.Age;
+```
+
+
+###This query willFind the list of people who won the election for more than 12000 votes , Their Names , Total Number of votes they get And Was male or female and count Them how many are they.
+
+```
+	MATCH(a:constituencies{Name : "Clare"})-[:Ran_IN_Election]-> 
+	
+	(b:candidate_Clare)
+	
+	WHERE b.TotalVotes >=12000
+	
+	RETURN b.Name , b.TotalVotes, b.Gender ,b.Age, Count(*);
+
+```
+
 
 ## References
 1. [Neo4J website](http://neo4j.com/), the website of the Neo4j database.
