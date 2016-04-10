@@ -9,8 +9,9 @@ This project is about all consituencies of IRELAND and their members in the data
 
 ## Database
 Explain how you created your database, and how information is represented in it.
-
-
+To create this Database all the information is retrieved from the Wikipedia , The nature of datbase is each and every node is created sepretly and each and every single node represent either a county or a members , so there is 40 consituencies is in Ireland so there is all together 40 nodes in the database which represents all the consituencies of ireland.
+ 
+``` CREATE ( CarlowKilkenny : constituencies {Name : "Carlow–Kilkenny" })
 
 
 
