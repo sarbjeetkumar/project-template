@@ -45,10 +45,10 @@ Above query shows how to create a relationship between constituency name Carlowâ
 
 
 ## Queries
-Summarise your three queries here.
-Then explain them one by one in the following sections.
 
-#### Query one
+
+#### Show database
+
  
 ```cypher
 MATCH
