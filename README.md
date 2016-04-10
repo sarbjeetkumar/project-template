@@ -1,14 +1,19 @@
 # Irish Constituencies Neo4j Database
-###### Student Sarab , G00
+###### Sarabjeet Kumar , G00305450
 
 ## Introduction
 <br>
 	<img height = 500 src ="https://github.com/sarbjeetkumar/project-template/blob/master/neo4j.JPG"/>
 <br>
-This project is about all consituencies and their members in the database .
+This project is about all consituencies of IRELAND and their members in the database . How they are stored and retrived from database .
 
 ## Database
 Explain how you created your database, and how information is represented in it.
+
+
+
+
+
 
 ## Queries
 Summarise your three queries here.
