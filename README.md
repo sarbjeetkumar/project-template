@@ -57,6 +57,19 @@ RETURN
 	n;
 ```
 This query Will Shows whats actually exixts in database and how is the structure of database. In terms of relationship with all of the members of the given county .
+
+
+
+
+##This query will shows a user that how many nodes are in the databse It will count a total number of nodes .
+
+```
+	start n=node(*)
+	
+	match (n)
+	
+	return count(n)
+```
 #### Query two title
 This query retreives the Bacon number of an actor...
 ```cypher
