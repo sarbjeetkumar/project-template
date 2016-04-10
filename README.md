@@ -2,6 +2,9 @@
 ###### Student Sarab , G00
 
 ## Introduction
+<br>
+	<img height = 500 src ="https://github.com/sarbjeetkumar/project-template/blob/master/neo4j.JPG"/>
+<br>
 This project is about all consituencies and their members in the database .
 
 ## Database
