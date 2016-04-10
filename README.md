@@ -34,15 +34,15 @@ Above querie shows how to create a node in database which represents the member 
 Summarise your three queries here.
 Then explain them one by one in the following sections.
 
-#### Query one title
-This query retreives the Bacon number of an actor...
+#### Query one
+ 
 ```cypher
 MATCH
-	(Bacon)
+	(n)
 RETURN
-	Bacon;
+	n;
 ```
-
+This query Will Shows whats actually exixts in database and how is the structure of database. In terms of relationship with all of the members of the given county .
 #### Query two title
 This query retreives the Bacon number of an actor...
 ```cypher
