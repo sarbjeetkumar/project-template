@@ -17,7 +17,7 @@ To create this Database all the information is retrieved from the Wikipedia , Th
 CREATE ( CarlowKilkenny : constituencies {Name : "Carlow–Kilkenny" })
 
 ```
-
+Above querie shows how each and every single node is created in database to create a nodes for consituensy , The very first word says "CREATE" Means tells in cypher to neo4j to create something and and next word is "CarlowKilkenny" I added this word "CarlowKilkenny" for my own purpose but we can create a node without this word as well and third word which is ": constituencies " : means = in cypher and constituencies is label which will represnets all the nodes who represents the constituencies and Naeme is actual name which show on the node and its a property of that node as well.
 
 ## Queries
 Summarise your three queries here.
