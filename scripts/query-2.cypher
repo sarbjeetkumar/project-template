@@ -1,9 +1,9 @@
-// Describe your query
-// at the start
-// in comments.
+//Query that displays all the female members of the county kerry who run 
+//in election With there names and age .
 
 
-MATCH
-	(n)
-RETURN
-	n;
+MATCH(a:constituencies{Name : "Kerry"})-[:Ran_IN_Election]-> 
+(b:candidateKerry)
+WHERE b.Gender = "Female"
+RETURN b.Name , b.Age;
+
