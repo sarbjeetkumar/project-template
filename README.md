@@ -31,12 +31,17 @@ PartyName : "FiannaFail",	TotalVotes : 11903	,County : "Carlow–Kilkenny"	,Win 
 Above querie shows how to create a node in database which represents the member of county "Carlow–Kilkenny" and it has some property's as well. It starts "CRATE" words tell neo4j in cypher to create a node and give it a label called candidate_CK and inside a node name called John McGuiness which was the member in that county as so on with all the members of all county's.
 
 
-```
-
-
+##Querie Shows how to create a relationship between the given candidate with the given county .
 
 ```
+MATCH (u:constituencies {Name:"Carlow–Kilkenny"}), (r:candidate_CK) 
 
+CREATE (u)-[:Ran_IN_Election]->(r)
+
+
+```
+
+Above query shows how to create a relationship between constituency name Carlow–Kilkenny with the all the candidate of that constituency, Very first we have to match the nodes together in datbase , For eg in the constituencies match a node name called Carlow–Kilkenny and match a another node in that candidate_CK and make a relationship between them and give a relationship name called a Ran_IN_Election.
 
 
 ## Queries
