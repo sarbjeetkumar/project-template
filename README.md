@@ -131,4 +131,5 @@ This query retreives  a oldest man name and age who run in election in county cl
 2. http://neo4j.com/developer/cypher/
 3. https://github.com/graph-theory
 4. https://github.com/graph-theory/problems-4/blob/master/problems.pdf
+5. https://en.wikipedia.org/wiki/Parliamentary_constituencies_in_the_Republic_of_Ireland
 
